@@ -28,6 +28,7 @@ export default function Sliders() {
             max="360"
             className="slider"
             id="hue"
+            value={hue}
           />
           {console.log({ hue })}
           <h2>Hue {hue}</h2>
@@ -40,6 +41,7 @@ export default function Sliders() {
             max="100"
             className="slider"
             id="saturation"
+            value={saturation}
           />
           <h2>Saturation {saturation} %</h2>
         </div>
@@ -52,6 +54,7 @@ export default function Sliders() {
             max="100"
             className="slider"
             id="lightness"
+            value={lightness}
           />
           <h2>Lightness {lightness} %</h2>
         </div>
