@@ -12,7 +12,7 @@ export default function Sliders() {
   }
 
   return (
-    <section>
+    <section className="colors">
       <section
         className="slider-container"
         style={{
@@ -31,7 +31,7 @@ export default function Sliders() {
             value={hue}
           />
           {console.log({ hue })}
-          <h2>Hue {hue}</h2>
+          <h2 className="hsl">Hue {hue}</h2>
         </div>
         <div className="input">
           <input
@@ -43,7 +43,7 @@ export default function Sliders() {
             id="saturation"
             value={saturation}
           />
-          <h2>Saturation {saturation} %</h2>
+          <h2 className="hsl">Saturation {saturation} %</h2>
         </div>
         {console.log({ saturation })}
         <div className="input">
@@ -56,7 +56,7 @@ export default function Sliders() {
             id="lightness"
             value={lightness}
           />
-          <h2>Lightness {lightness} %</h2>
+          <h2 className="hsl">Lightness {lightness} %</h2>
         </div>
         {console.log({ lightness })}
         <h2>

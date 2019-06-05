@@ -9,6 +9,7 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: whitesmoke;
 }
 
 .slider-container {
@@ -16,10 +17,41 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 70%;
+  width: 50%;
   justify-content: space-evenly;
+  margin-top: 2rem;
 }
 .input {
   display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+
+.colors {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+button {
+  width: 15rem;
+  height: 3rem;
+  font-size: 2rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+  background-color: hsl(229, 86%, 88%);
+}
+
+.header {
   text-align: center;
+  font-size: 5rem;
+}
+
+.hsl {
+  width: 200px;
+  text-align: left;
+  margin-right: 75px;
 }
